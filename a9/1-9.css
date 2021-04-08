@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.header {
+header {
   height: 50px;
   background-color: #ff9a4b;
 }
@@ -23,7 +23,7 @@ main {
   background-color: #eee;
 }
 .step-box:last-child {
-  margin-right: 0%;
+  margin-right: 0;
 }
 
 .step-image1 {
@@ -47,8 +47,19 @@ main {
   background-size: cover;
 }
 
-.footer {
-  width: 100%;
+.step-num {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+footer {
   height: 50px;
-  background-color: #aaaaaa;
+  background-color: #aaa;
 }
